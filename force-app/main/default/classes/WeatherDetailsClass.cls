@@ -41,7 +41,6 @@ public class WeatherDetailsClass {
     }
 //Wrapper class to store weather details in serial manner
   public class WeatherDetailsWrapper {
-
     @AuraEnabled public String city {get;set;}
     @AuraEnabled public String temperature {get;set;}
     @AuraEnabled public String pressure {get;set;}
